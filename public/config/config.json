@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x5a714f23236202c7b8d60b9c97e570b07ce31695",
+  "SCAN_LINK": "https://basescan.org/address/0x5a714f23236202c7b8d60b9c97e570b07ce31695",
+  "NETWORK": {
+    "NAME": "Base",
+    "SYMBOL": "ETH",
+    "ID": 8453
+  },
+  "NFT_NAME": "Basemigos",
+  "SYMBOL": "BSMGS",
+  "MAX_SUPPLY": 2222,
+  "WEI_COST": 6000000000000000,
+  "DISPLAY_COST": 0.006,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/basemigos",
+  "SHOW_BACKGROUND": true
+}
