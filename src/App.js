@@ -337,7 +337,7 @@ const handleMintfun = () => {
             />
 
 <s.SpacerLargeX />
-<s.SpacerLarge />
+<s.SpacerMedium />
 
 <s.TextTitle
             style={{
