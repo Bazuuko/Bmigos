@@ -202,6 +202,13 @@ function App() {
     });
   };
 
+const handleMintfun = () => {
+    window.open(
+      'https://mint.fun/base/0x5a714f23236202c7b8d60b9c97e570b07ce31695',
+      '_blank' // <- This is what makes it open in a new window.
+    );
+  };
+
 
  // <link href="https://fonts.googleapis.com/css2?display=swap&amp;family=Silkscreen:ital,wght@0,400;1,400&amp;family=Inter:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet" type="text/css"></link>
 
@@ -281,7 +288,7 @@ function App() {
 
       </ResponsiveWrapper>
       </div>
-<div class="card" style={{marginLeft:"70px"}}>
+<div class="card" style={{marginLeft:"70px"}} onClick={handleMintfun}>
       <ResponsiveWrapper test>
         <s.SpacerLarge />
         <s.Container
