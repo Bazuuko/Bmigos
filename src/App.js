@@ -281,6 +281,40 @@ function App() {
 
       </ResponsiveWrapper>
       </div>
+<div class="card" style={{marginLeft:"70px"}}>
+      <ResponsiveWrapper test>
+        <s.SpacerLarge />
+        <s.Container
+          flex={1}
+          jc={"center"}
+          ai={"center"}
+          image={CONFIG.SHOW_BACKGROUND ? "/config/images/baseButton.png" : null}
+          style={{
+            padding: 10,
+            borderRadius: 30,
+            boxShadow: "2px 10px 10px 10px rgba(0,0,0,0.2)",
+            cursor:"pointer",
+            width:"280px", 
+            height:"100px",
+
+          }}
+          
+        >
+          <s.TextTitle2
+            style={{
+              textAlign: "center",
+              letterSpacing: 3,
+              fontSize: 30,
+              color: "var(--accent-text)",
+              textShadow: "-2px -2px 0 #000, 2px -2px 0 #000, -2px 3px 0 #000, 3px 3px 0 #000",
+            }}
+          >
+            MINT.FUN
+          </s.TextTitle2>
+        </s.Container>
+
+      </ResponsiveWrapper>
+      </div>
       
       </div>
 
@@ -295,6 +329,7 @@ function App() {
               src={"/config/images/basemigos.jpg"}
             />
 
+<s.SpacerLargeX />
 <s.SpacerLargeX />
 
 <s.TextTitle
