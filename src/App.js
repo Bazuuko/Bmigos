@@ -369,7 +369,7 @@ const handleMintfun = () => {
               color: "var(--accent-text)",
             }}
           >
-            The Basemigos license will be available soon.
+            The Basemigos license will be available soon. <a href="https://www.google.com">Go to Google</a>
       </s.TextSubTitle>
       <s.SpacerLargeX />
       <s.SpacerLargeX />
