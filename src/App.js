@@ -81,6 +81,13 @@ export const StyledImg = styled.img`
   cursor: pointer;
 `;
 
+export const StyledImg3 = styled.img`
+  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
+  background-color: var(--accent);
+  width: 100%;
+  transition: width 0.5s;
+`;
+
 export const StyledImg2 = styled.img`
   background-color: var(--accent);
   width: 400px;
@@ -210,12 +217,6 @@ const handleMintfun = () => {
   };
 
 
- // <link href="https://fonts.googleapis.com/css2?display=swap&amp;family=Silkscreen:ital,wght@0,400;1,400&amp;family=Inter:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet" type="text/css"></link>
-
-// <h1 id="text11" class="style3" style="opacity: 1; transform-origin: 50% 50%; transform: none;">Nakamigos</h1>
-// <p id="text01" class="style2" style="opacity: 1; transform: none;">20,000 unique crypto investors on the blockchain with commercial rights.</p>
-
-
   return (
     <s.Screen>
 
@@ -331,7 +332,7 @@ const handleMintfun = () => {
       <s.SpacerLargeX />
 
 
-      <StyledImg
+      <StyledImg3
               alt={"logo"}
               src={"/config/images/basemigos.jpg"}
             />
@@ -375,7 +376,7 @@ const handleMintfun = () => {
       <s.SpacerLargeX />
 
 
-      <StyledImg2
+      <StyledImg3
               alt={"logo"}
               src={"/config/images/basemigos.jpg"}
             />
