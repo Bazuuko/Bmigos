@@ -334,10 +334,6 @@ const handleMintfun = () => {
       <StyledImg
               alt={"logo"}
               src={"/config/images/basemigos.jpg"}
-               style={{
-              cursor:none
-
-          }}
             />
 
 <s.SpacerLargeX />
