@@ -217,6 +217,27 @@ const handleMintfun = () => {
     );
   };
 
+const handleTw = () => {
+    window.open(
+      'https://twitter.com/BasemigosOnBase',
+      '_blank' // <- This is what makes it open in a new window.
+    );
+  };
+
+const handleTg = () => {
+    window.open(
+      'https://t.me/Basemigos',
+      '_blank' // <- This is what makes it open in a new window.
+    );
+  };
+
+ const [showMobileWarning, setShowMobileWarning] = useState(false)
+
+useEffect(() => {
+  if(window.innerWidth <= 800)
+    setShowMobileWarning(true)
+}, [])
+
 
   return (
     <s.Screen>
@@ -536,12 +557,24 @@ const handleMintfun = () => {
       
       
       </div>
-      <s.SpacerLargeX />
-      <s.SpacerLargeXXX />
+     <s.SpacerLargeX />
+      <s.SpacerLarge />
       </s.Container>
 
-                          
+      <div class="container" style={{display:"flex"}}>
 
+      <div class="card" style={{display:"flex"}}> 
+                   <StyledImg3
+              src={"/config/images/tg.png"}
+            />
+</div>
+<div class="card" style={{marginLeft:"80px"}}> 
+            <StyledImg3
+              src={"/config/images/tw.png"}
+            />     
+</div>  
+</div>
+<s.SpacerLargeX />
       </s.Container>
       </div>
       
