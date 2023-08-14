@@ -316,6 +316,8 @@ useEffect(() => {
 
       </ResponsiveWrapper>
       </div>
+
+<s.SpacerLarge />
 <div class="card" style={{marginLeft:"70px"}} onClick={handleMintfun}>
       <ResponsiveWrapper test>
         <s.SpacerLarge />
@@ -352,7 +354,7 @@ useEffect(() => {
       </div>
       
       </div>
-
+<s.SpacerMedium />
 <div class="card" onClick={handleMintfun}>
       <ResponsiveWrapper test>
         <s.SpacerLarge />
