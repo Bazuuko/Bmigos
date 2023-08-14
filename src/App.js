@@ -380,7 +380,7 @@ useEffect(() => {
               textShadow: "-2px -2px 0 #000, 2px -2px 0 #000, -2px 3px 0 #000, 3px 3px 0 #000",
             }}
           >
-            opensea
+          OPENSEA
           </s.TextTitle2>
         </s.Container>
 
