@@ -280,6 +280,7 @@ useEffect(() => {
             2222 unique crypto investors on the Base blockchain with commercial rights.
       </s.TextSubTitle>
 
+<s.SpacerLarge />
       <div class="container" style={{display:"flex", marginLeft:"-5px"}}>
       <div class="card" onClick={handleScroll} >
       <ResponsiveWrapper test>
