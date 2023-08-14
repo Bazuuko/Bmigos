@@ -352,7 +352,7 @@ useEffect(() => {
       
       </div>
 
-<div class="card" style={{marginLeft:"70px"}} onClick={handleMintfun}>
+<div class="card" onClick={handleMintfun}>
       <ResponsiveWrapper test>
         <s.SpacerLarge />
         <s.Container
@@ -365,8 +365,8 @@ useEffect(() => {
             borderRadius: 30,
             boxShadow: "2px 10px 10px 10px rgba(0,0,0,0.2)",
             cursor:"pointer",
-            width:"280px", 
-            height:"100px",
+            width:"260px", 
+            height:"80px",
 
           }}
           
@@ -375,7 +375,7 @@ useEffect(() => {
             style={{
               textAlign: "center",
               letterSpacing: 3,
-              fontSize: 30,
+              fontSize: 28,
               color: "var(--accent-text)",
               textShadow: "-2px -2px 0 #000, 2px -2px 0 #000, -2px 3px 0 #000, 3px 3px 0 #000",
             }}
