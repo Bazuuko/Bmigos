@@ -281,6 +281,17 @@ useEffect(() => {
       </s.TextSubTitle>
       <s.SpacerMedium />
 
+ <s.TextTitle
+            style={{
+              textAlign:"right",
+              fontSize: 120,
+              fontWeight: "bold",
+              color: "var(--accent-text)",
+            }}
+          >
+            OPENSEA
+      </s.TextTitle>
+
       <div class="container" style={{display:"flex", marginLeft:"-5px"}}>
       <div class="card" onClick={handleScroll} >
       <ResponsiveWrapper test>
