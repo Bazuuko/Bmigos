@@ -5,7 +5,7 @@ import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 import background from "./styles/backgroundbase.png";
-import background_a from "./styles/backgroundbase2.png";
+import background2 from "./styles/backgroundbase2.png";
 
 
 const truncate = (input, len) =>
@@ -222,10 +222,7 @@ const handleMintfun = () => {
     <s.Screen>
 
       <div style={{display:"flex", 
-      backgroundImage: `url(${background})`,
-      @media (min-width: 2000px) {
-        backgroundImage: `url(${background_a})`
-        }
+      backgroundImage: `url(${background2})`,
       backgroundAttachment: "fixed",
       backgroundPosition: "center"
        }}>
