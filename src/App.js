@@ -236,6 +236,13 @@ const handleTg = () => {
     );
   };
 
+const handleOpensea = () => {
+    window.open(
+      'https://opensea.io/collection/basemigos',
+      '_blank' // <- This is what makes it open in a new window.
+    );
+  };
+
  const [showMobileWarning, setShowMobileWarning] = useState(false)
 
 useEffect(() => {
