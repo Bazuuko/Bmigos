@@ -568,12 +568,12 @@ useEffect(() => {
 
       <div class="container" style={{display:"flex"}}>
 
-      <div class="card" style={{display:"flex"}}> 
+      <div class="card" onClick={handleTg} style={{display:"flex"}}> 
                    <StyledImg4
               src={"/config/images/tg.png"}
             />
 </div>
-<div class="card" style={{marginLeft:"80px"}}> 
+<div class="card" onClick={handleTw} style={{marginLeft:"80px"}}> 
             <StyledImg4
               src={"/config/images/tw.png"}
             />     
