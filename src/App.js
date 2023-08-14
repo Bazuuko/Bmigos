@@ -362,7 +362,7 @@ useEffect(() => {
       
       </div>
 <s.SpacerMedium />
-<div class="card" onClick={handleMintfun}>
+<div class="card" onClick={handleOpensea}>
       <ResponsiveWrapper test>
         <s.SpacerLarge />
         <s.Container
