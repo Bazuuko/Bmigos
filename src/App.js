@@ -89,6 +89,11 @@ export const StyledImg3 = styled.img`
   transition: width 0.5s;
 `;
 
+export const StyledImg4 = styled.img`
+  width: 80px;
+  cursor: pointer;
+`;
+
 export const StyledImg2 = styled.img`
   background-color: var(--accent);
   width: 400px;
@@ -564,12 +569,12 @@ useEffect(() => {
       <div class="container" style={{display:"flex"}}>
 
       <div class="card" style={{display:"flex"}}> 
-                   <StyledImg3
+                   <StyledImg4
               src={"/config/images/tg.png"}
             />
 </div>
 <div class="card" style={{marginLeft:"80px"}}> 
-            <StyledImg3
+            <StyledImg4
               src={"/config/images/tw.png"}
             />     
 </div>  
